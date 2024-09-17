@@ -281,8 +281,8 @@ var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "astrix-testnet-10",
 	Net:         appmessage.Testnet,
-	RPCPort:     "16210",
-	DefaultPort: "16211",
+	RPCPort:     "34250",
+	DefaultPort: "34251",
 	DNSSeeds: []string{
 		"testnet-10-dnsseed.aix.pa",
 		// This DNS seeder is run by Tiram
