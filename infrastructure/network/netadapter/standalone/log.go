@@ -1,0 +1,9 @@
+package standalone
+
+import (
+	"github.com/astrix-network/astrixd/infrastructure/logger"
+	"github.com/astrix-network/astrixd/util/panics"
+)
+
+var log = logger.RegisterSubSystem("NTAR")
+var spawn = panics.GoroutineWrapperFunc(log)
