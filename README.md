@@ -2,7 +2,7 @@
 
 The full node reference implementation was [rewritten in Rust](https://github.com/astrix-network/astrix-node), as a result, the Go implementation is now deprecated.
 
-It is not possible to synchronize it to the network
+# It is not possible to synchronize this node but you can launch a RUST node and use a GO wallet if you need
 
 PLEASE NOTE: Any pull requests or issues that will be opened in this repository will be closed without treatment, except for issues or pull requests related to the astrixwallet, which remains maintained. In any other case, please use the [Rust implementation](https://github.com/astrix-network/astrix-node) instead.
 
