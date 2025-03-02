@@ -26,4 +26,4 @@ COPY --from=build /go/src/github.com/astrix-network/astrixd/astrixwallet /app/
 #COPY --from=build /go/src/github.com/astrix-network/astrixd/infrastructure/config/sample-astrixd.conf /app/
 
 WORKDIR /
-ENTRYPOINT ["/app/astrixwallet start-daemon"]
+CMD ["/app/astrixwallet", "start-daemon"]
